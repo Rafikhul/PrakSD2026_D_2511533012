@@ -15,7 +15,7 @@ public class Jam_2511533012 {
 	
 	public int getHour() { 
 		return hh; 
-		}
+	}
 	public int getMinute() { return mm; }
 	public int getSecond() { return ss; }
 	
