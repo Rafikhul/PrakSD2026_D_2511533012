@@ -11,7 +11,7 @@ public class Playlist_2511533012 {
         int pilihan;
 
         do {
-            System.out.println("\n=== Playlist Musik NIM: 2311532008 ===");
+            System.out.println("\n=== Playlist Musik NIM: 2511533012 ===");
             System.out.println("1. Tambah Lagu");
             System.out.println("2. Lihat Playlist");
             System.out.println("3. Hapus Lagu");
