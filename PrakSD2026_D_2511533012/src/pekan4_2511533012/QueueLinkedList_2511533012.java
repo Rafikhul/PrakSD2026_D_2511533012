@@ -7,21 +7,21 @@ public class QueueLinkedList_2511533012 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Queue<Integer> q = new LinkedList<>();
+		Queue<Integer> q_3012 = new LinkedList<>();
 		
 		for (int i = 0; i < 6; i++)
-			q.add(i);
+			q_3012.add(i);
 		
-		System.out.println("Elemen Antrian " + q);
+		System.out.println("Elemen Antrian " + q_3012);
 		
-		int hapus = q.remove();
+		int hapus = q_3012.remove();
 		System.out.println("Hapus elemen = " + hapus);
-		System.out.println(q);
+		System.out.println(q_3012);
 		
-		int depan = q.peek();
+		int depan = q_3012.peek();
 		System.out.println("Kepala Antrian = " + depan);
 		
-		int banyak = q.size();
+		int banyak = q_3012.size();
 		System.out.println("Size Antrian = " + banyak);
 	}
 

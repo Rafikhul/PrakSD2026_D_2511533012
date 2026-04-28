@@ -12,16 +12,16 @@ public class QueueArray_2511533012 {
 		array = new int [this.capacity];
 	}
 	
-	boolean isFull(QueueArray_2511533012 queue) {
+	boolean isFull_3012(QueueArray_2511533012 queue) {
 		return (queue.size == queue.capacity);
 	}
 	
-	boolean isEmpty(QueueArray_2511533012 queue) {
+	boolean isEmpty_3012(QueueArray_2511533012 queue) {
 		return (queue.size == 0);
 	}
 	
 	void enqueue_3012(int item) {
-		if (isFull(this))
+		if (isFull_3012(this))
 			return;
 		this.rear = (this.rear + 1) % this.capacity;
 		this.array[this.rear] = item;
@@ -30,7 +30,7 @@ public class QueueArray_2511533012 {
 	}
 	
 	int dequeue_3012() {
-		if (isEmpty(this))
+		if (isEmpty_3012(this))
 			return Integer.MIN_VALUE;
 		int item = this.array[this.front];
 		this.front = (this.front + 1) % this.capacity;
@@ -39,14 +39,14 @@ public class QueueArray_2511533012 {
 	}
 	
 	int front_3012() {
-		if (isEmpty(this))
+		if (isEmpty_3012(this))
 			return Integer.MIN_VALUE;
 		
 		return this.array[this.front];
 	}
 	
 	int rear_3012() {
-		if (isEmpty(this))
+		if (isEmpty_3012(this))
 			return Integer.MIN_VALUE;
 		
 		return this.array[this.rear];
