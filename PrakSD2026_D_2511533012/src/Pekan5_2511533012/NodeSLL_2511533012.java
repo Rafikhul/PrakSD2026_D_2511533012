@@ -10,10 +10,4 @@ public class NodeSLL_2511533012 {
 		this.data_3012 = data_3012;
 		this.next_3012 = null;
 	}
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 }
