@@ -21,10 +21,6 @@ public class PenelusuranDLL_2511533012 {
 		System.out.println();
 	}
 	
-	
-	
-	
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		NodeDLL_2511533012 head = new NodeDLL_2511533012(1);
