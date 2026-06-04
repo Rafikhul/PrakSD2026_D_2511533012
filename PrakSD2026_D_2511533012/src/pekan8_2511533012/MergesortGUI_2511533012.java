@@ -82,7 +82,7 @@ public class MergesortGUI_2511533012 extends JFrame {
         String[] parts_3102 = text_3102.split(",");
         array = new int[parts_3102.length];
         try {
-            for (int i_3102 = 0; i_3102 < parts_3102.length; i++) {
+            for (int i_3102 = 0; i_3102 < parts_3102.length; i_3102++) {
                 array[i_3102] = Integer.parseInt(parts_3102[i_3102].trim());
             }
         } catch (NumberFormatException e) {
@@ -103,7 +103,7 @@ public class MergesortGUI_2511533012 extends JFrame {
             panelArray.add(labelArray[i_3102]);
         }
         mergeQueue.clear();
-        generateMergeSteps(0, array.length - 1);
+        generateMergeSteps_2511533012(0, array.length - 1);
         stepButton.setEnabled(true);
         stepArea.setText("");
         stepCount = 1;
@@ -121,7 +121,7 @@ public class MergesortGUI_2511533012 extends JFrame {
     }
 
     private void performStep_2511533012() {
-        resetHighlights();
+        resetHighlights_2511533012();
 
         if (!isMerging && !mergeQueue.isEmpty()) {
             int[] range = mergeQueue.poll();
